@@ -1,5 +1,5 @@
 #include "hello.h"
 
 void hello::printHello() {
-    cout << "Hello, world";
+    cout << "Hellold";
 }
