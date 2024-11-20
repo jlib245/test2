@@ -1,5 +1,6 @@
-#include "hello.h"
+#include <iostream>
+using namespace std;
 
-void hello::printHello() {
-    cout << "Hello, world";
+int main() {
+
 }
