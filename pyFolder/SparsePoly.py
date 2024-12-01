@@ -25,7 +25,7 @@ class SparsePoly(LinkedList):
     
     def insert(self, pos, elem):
         if pos < 0:
-            raise IndexError("Position must be non-negative.")
+            return
         
         if pos == 0: 
             self.head = Node(elem, self.head)
